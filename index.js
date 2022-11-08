@@ -6,13 +6,6 @@ import { getDatabase, ref, set, child, get } from "https://www.gstatic.com/fireb
 
 // Your web app's Firebase configuration
 const firebaseConfig = {
-	// Import the functions you need from the SDKs you need
-import { initializeApp } from "firebase/app";
-// TODO: Add SDKs for Firebase products that you want to use
-// https://firebase.google.com/docs/web/setup#available-libraries
-
-// Your web app's Firebase configuration
-const firebaseConfig = {
   apiKey: "AIzaSyBdiqFc56IJ6ZqN-any0XrcdffbT7zeQr0",
   authDomain: "kc326-4496d.firebaseapp.com",
   databaseURL: "https://kc326-4496d-default-rtdb.asia-southeast1.firebasedatabase.app",
@@ -20,13 +13,6 @@ const firebaseConfig = {
   storageBucket: "kc326-4496d.appspot.com",
   messagingSenderId: "76477802407",
   appId: "1:76477802407:web:7c3b1c66f24bcaa5b0f882"
-};
-
-// Initialize Firebase
-const app = initializeApp(firebaseConfig);
-
-  //Điền thông tin Firebase config của cá nhân vào đây
-  
 };
 
 // Initialize Firebase
