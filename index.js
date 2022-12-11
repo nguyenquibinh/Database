@@ -1,25 +1,25 @@
 // Import the functions you need from the SDKs you need
-  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-app.js";
-  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.15.0/firebase-analytics.js";
-  // TODO: Add SDKs for Firebase products that you want to use
-  // https://firebase.google.com/docs/web/setup#available-libraries
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
 
-  // Your web app's Firebase configuration
-  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-  const firebaseConfig = {
-    apiKey: "AIzaSyBdiqFc56IJ6ZqN-any0XrcdffbT7zeQr0",
-    authDomain: "kc326-4496d.firebaseapp.com",
-    databaseURL: "https://kc326-4496d-default-rtdb.asia-southeast1.firebasedatabase.app",
-    projectId: "kc326-4496d",
-    storageBucket: "kc326-4496d.appspot.com",
-    messagingSenderId: "76477802407",
-    appId: "1:76477802407:web:99ee457429ca1d66b0f882",
-    measurementId: "G-EGV2XRGGDK"
-  };
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyDADSSzEbqzdlx0qQbmeV50o-2f-6lk34Q",
+  authDomain: "examble-36998.firebaseapp.com",
+  databaseURL: "https://examble-36998-default-rtdb.firebaseio.com",
+  projectId: "examble-36998",
+  storageBucket: "examble-36998.appspot.com",
+  messagingSenderId: "173279564310",
+  appId: "1:173279564310:web:10dde98f05e584a54c5b37",
+  measurementId: "G-VF2XRRCQ2P"
+};
 
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
-  const analytics = getAnalytics(app);
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
 
 send.addEventListener('click',(e) =>{ 
 Sends();
